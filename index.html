@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spotify</title>
+</head>
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/background.png') ;   
+   
+  }
+  nav {
+    font-family: 'Courier New', Courier, monospace;
+
+  }
+  nav ul {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    list-style-type: none;
+    background-color: black;
+    /* width: fit-content; */
+  }
+  nav ul li {
+    display:inline-flex;
+    color: white;
+  width: 55%;
+  line-height: 55px;
+  }
+  .brand img {
+    width:55px;
+     }
+  .brand {
+    display: flex;
+    align-content: space-between;
+   font-weight: bolder;
+  }
+  .bottom{
+    position: sticky;
+    height: 192px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .icons {
+    margin: 14px 0px;
+  }
+  .container {
+    min-height: 65vh;
+    background-color: black;
+    color: black;
+    /* display: flex; */
+    margin: 23px auto;
+    width: 84%;
+    border-radius: 14px ;
+    background-image: url('../img/backfjf.png');
+  }
+  h1 {
+    color: white;
+  }
+  #myprogressbar{
+    width: 80vw;
+    cursor: pointer;
+  }
+  .songItemcontainer{
+    margin-top: 74px;
+  }
+  .songItem  {
+   height:50px;
+   display: flex;
+   width: 35%;
+   margin: 8px; 
+  background-color: white;
+  text-decoration-color: black;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 36px;
+  }
+  .songItem img {
+  margin: 0 23px;
+  width: 40px;
+  border-radius: 34px;
+  }
+  .timestamp {
+    margin: 0 23px;
+  }
+  .timestamp i {
+ cursor: pointer;
+}
+/* .songinfo img{
+  width: ;
+} */
+</style>
+<body>
+
+    
+<nav>
+    <ul>
+       <li class="brand" > <img
+          src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/logo.png"
+        />Spotify</li>
+       </li>
+      <li>Home</li>
+      <li>About</li>
+       <li>Contact Us</li>
+       <li>Our Plan</li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="songlist">
+    <h1> BEST SONGS OF CHAIN SMOKERS</h1> </div>
+    <div>
+      <div class="songItemcontainer">
+      <div class="songItem">
+       <img src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/jgt.jpg" alt="2">
+        <span> Something Just Like This</span>
+         <i class="fa-solid fa-regular fa-play-circle"></i>
+         <span class="listplay"><span class="timestamp">05:43</span> </span>
+      </div>
+      <div class="songItem">
+        <img src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/jgt.jpg" alt="2">
+         <span> Something Just Like This</span>
+          <i class="fa-solid fa-regular fa-play-circle"></i>
+          <span class="listplay"><span class="timestamp">05:43</span> </span>
+       </div>
+       <div class="songItem">
+        <img src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/jgt.jpg" alt="2">
+         <span> Something Just Like This</span>
+          <i class="fa-solid fa-regular fa-play-circle"></i>
+          <span class="listplay"><span class="timestamp">05:43</span> </span>
+       </div>
+       <div class="songItem">
+        <img src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/jgt.jpg" alt="2">
+         <span> Something Just Like This</span>
+          <i class="fa-solid fa-regular fa-play-circle"></i>
+          <span class="listplay"><span class="timestamp">05:43</span> </span>
+       </div>
+       <div class="songItem">
+        <img src="C:\Users\Concept Recall\Desktop\SPOTIFY\img/jgt.jpg" alt="2">
+         <span> Something Just Like This</span>
+          <i class="fa-solid fa-regular fa-play-circle"></i>
+          <span class="listplay"><span class="timestamp">05:43</span> </span>
+       </div>
+    </div>
+
+    <div class="songbanner"></div>
+    </div>
+  <div class="bottom">
+    <input type="range" name="range" id="myprogressbar" min="0" max="100">
+    <div class="icons">
+      <!-- fontawesome icons -->
+         <i class="fa-solid fa-3x fa-step-backward"></i>
+         <i class="fa-solid fa-3x fa-play-circle"></i>
+         <i class="fa-solid fa-3x fa-step-forward"></i>
+        
+    </div>
+  </div>
+  <div class="songinfo">
+   <img src="../img/playing.gif" alt="gif">
+  </div>
+  <script src="https://kit.fontawesome.com/bffba996aa.js" crossorigin="anonymous"></script>
+  <script src="scripts.js
+  "></script>
+</body>
+  </html>
+
